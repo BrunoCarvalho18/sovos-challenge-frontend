@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(glue = { "com.sovos.challenge.frontend.steps" }, features = {
-		"src/main/resources" },tags =  "@consult-products")
+		"src/main/resources" },tags =  "@add-products")
 public class Runner {
 	
 	@AfterClass

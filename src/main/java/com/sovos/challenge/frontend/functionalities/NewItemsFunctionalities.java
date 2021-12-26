@@ -13,4 +13,8 @@ public class NewItemsFunctionalities {
 	public String verifyGetFieldItemsAdd() {
 		return newItems.getTextAddCartCorrect().getText();
 	}
+	
+	public void clickButtonCart() {
+		newItems.getButtonCart().click();
+	}
 }

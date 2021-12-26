@@ -14,6 +14,17 @@ public class NewItemsPage extends BasePage {
 	
 	@FindBy(xpath = "//*[contains(text(),'Adicionado ao carrinho')]")
 	WebElement textAddCartCorrect;
+	
+	@FindBy(id = "hlb-view-cart-announce")
+	WebElement buttonCart;
+
+	public WebElement getButtonCart() {
+		return buttonCart;
+	}
+
+	public void setButtonCart(WebElement buttonCart) {
+		this.buttonCart = buttonCart;
+	}
 
 	public WebElement getTextAddCartCorrect() {
 		return textAddCartCorrect;
