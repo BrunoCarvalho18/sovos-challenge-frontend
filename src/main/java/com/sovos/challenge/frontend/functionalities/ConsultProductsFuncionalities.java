@@ -13,5 +13,9 @@ public class ConsultProductsFuncionalities {
 	 public void FillTheBlankSearchTextBox(String text) {
 		 home.getFieldSearchTextBox().sendKeys(text);
 	 }
+	 
+	 public void ClickButtonSearch() {
+		 home.getButtonSearch().click();
+	 }
 
 }

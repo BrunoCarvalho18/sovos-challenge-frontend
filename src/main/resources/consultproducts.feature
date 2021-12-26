@@ -8,10 +8,10 @@ Feature: Consult Products
   Scenario: Consult Products
     Given  I am on the home page
     When I put this "<item>" on the cart
-    Then I should see products on the cart with the price correct
+    Then I should see products on the cart
   
   Examples:
-    |item          |
-    |Mackbook Air  |
+    |item            |
+    |Mackbook air M1 |
 
   
